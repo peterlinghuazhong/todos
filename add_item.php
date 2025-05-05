@@ -22,6 +22,6 @@ if ( empty ($task_name) ) {
         "label" => $task_name
     ]);
 }
-header("Location: index2.php");
+header("Location: index.php");
 exit;
 ?>

@@ -21,5 +21,5 @@
 }
 $query = $database->prepare( $sql );
 $query->execute(["id" => $id]);
-header("Location: index2.php");
+header("Location: index.php");
   exit;

@@ -18,5 +18,5 @@
     $query->execute([
         "id" => $label_id
     ]);
-    header("Location: index2.php");
+    header("Location: index.php");
     exit;
